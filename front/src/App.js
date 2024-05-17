@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import LoginRegister from './Components/LoginRegister/LoginRegister';
+import SignUp from './Components/SignUp/SignUp';
+import NavBar from './Components/Navbar/Navbar';
+import SuccessSignUp from './Components/SuccessSignUp/SuccessSignUp';
+import AddUser from './Components/AddUser/AddUser';
+import UpdateUser from './Components/UpdateUser/UpdateUser';
+import AddAdmin from './Components/AddAdmin/AddAdmin';
+import UpdateAdmin from './Components/UpdateAdmin/UpdateAdmin';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    
+    <div>
+      <LoginRegister />
     </div>
+    
+    </>
+
   );
 }
 
